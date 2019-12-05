@@ -10,8 +10,8 @@ def period(x,N):
 we will just go back to the basics, implement a bool isprime(n) function
 and while not prime found, keep running shors_breaker(N)
 
-However, in the case of public key cryptography, N = pq and no further
-calculations are required"""
+However, in the case of public key cryptography, N = pq, where p,q are primes,
+hence further calculations are required"""
 def shors_breaker(N):
     N = int(N)
     while True:
